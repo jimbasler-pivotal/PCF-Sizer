@@ -1,5 +1,5 @@
 applications:
-- name: pcfsizer-dev
+- name: pcfsizer-jcb
   memory: 128M
-  host: pcfsizer-dev
+  host: pcfsizer-jcb
   buildpack: nodejs_buildpack

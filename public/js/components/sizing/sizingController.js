@@ -7,13 +7,9 @@
       for (var i = 1; i <= 300; ++i) {
         $scope.data.aiPackOptions.push({ label: i + " ("+i*50+")", value: i});
       }
-      $scope.data.aiPackOptions.push({ label: 400 + " (20000)", value: 400});
-      $scope.data.aiPackOptions.push({ label: 500 + " (25000)", value: 500});
-      $scope.data.aiPackOptions.push({ label: 600 + " (30000)", value: 600});
-      $scope.data.aiPackOptions.push({ label: 700 + " (35000)", value: 700});
-      $scope.data.aiPackOptions.push({ label: 800 + " (40000)", value: 800});
-      $scope.data.aiPackOptions.push({ label: 900 + " (45000)", value: 900});
-      $scope.data.aiPackOptions.push({ label: 1000 + " (50000)", value: 1000});
+      for (var j = 310; j <= 1000; j+=10) {
+        $scope.data.aiPackOptions.push({ label: j + " ("+j*50+")", value: j});
+      }
     };
 
     $scope.setAIPackOptions();
